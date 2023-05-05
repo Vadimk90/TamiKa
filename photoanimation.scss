@@ -1,0 +1,51 @@
+$n:5; /* number of images*/
+
+.gallery  {
+  --d: 10s; /* duration */
+  
+  display: grid;
+  width: 220px;
+}
+.gallery > img {
+  grid-area: 1/1;
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border: 10px solid #f2f2f2;
+  box-shadow: 0 0 4px #0007;
+  z-index: 2;
+  animation: 
+    slide var(--d) infinite,
+    z-order var(--d) infinite steps(1);
+}
+.gallery img:last-child {
+  animation-name: slide, z-order-last;
+}
+
+@for $i from 1 to ($n + 1) {
+  .gallery > img:nth-child(#{$i}) {
+    animation-delay: calc(#{(1 - $i)/$n}*var(--d));
+    --r: #{(-20 + random(40))*1deg};
+  }
+}
+
+@keyframes slide {
+  #{50/$n}%  {transform: translateX(120%) rotate(var(--r))}
+  0%,
+  100%,
+  #{100/$n}% {transform: translateX(0%)   rotate(var(--r))}
+}
+
+@keyframes z-order {
+  #{50/$n}%,
+  #{100/$n}% {z-index: 1}
+  #{100 - 100/$n}% {z-index: 2}
+}
+
+@keyframes z-order-last {
+  #{50/$n}%,
+  #{100/$n}% {z-index: 1}
+  #{100 - 50/$n}% {z-index: 2}
+}
+
+

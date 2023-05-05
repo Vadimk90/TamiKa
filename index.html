@@ -6,18 +6,126 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TamiKa</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./photoanimation.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM+Sans:400,400i,500,500i,700,700i&amp;display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+    
+</head>
+
 <body>
-    <menu>
-        
+    <main> 
+        <div class="container" id="presentation">
+            <img src="./IMG/front_photo.jpg" alt="photo"> 
+            <div class="text_block">
+                <h1>Привет, меня зовут ТАМИЛА</h1>
+                <h2>Я профессиональный фотограф и мама троих детей :)</h2>
+            </div>
+            <ul class="header-nav">
+                <li><a href="#photos">Мои работы</a></li>
+                <li><a href="#about">Обо мне</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </div>
+    </main>
+    <br id="photos"><br><br><br><br><br><br><br>
+    <div class="main-title-about">
+        <h2>МОИ РАБОТЫ</h2>
+    </div>
+    <div class="container" id="photos">
+        <div class="gallery">
+            <img src="./IMG/kid_running.jpg" alt="Kid_running">
+            <img src="./IMG/kid_wb.jpg" alt="kid_wb">
+            <img src="./IMG/kid_family_father.jpg" alt="kid_family">
+            <img src="./IMG/kid_family1.jpg" alt="kid_family">
+            <img src="./IMG/kid_mother.jpg" alt="kid_mother">
+        </div>
 
-    </menu>
-    <hellopage>    
+        <div class="main-title">
 
-    </hellopage>
+            <div class="main-title-text">
+                <br>
+                <ul>
+                    <li>Снимаю Портреты</li>
+                    <li>Обожаю семейные фотосессии "мама и дочка"</li>
+                    <li>Люблю снимать в период беременности и младенчества</li>
+                    <li>Сниму парную съемку или историю вашей любви</li>
+                </ul>
+                <br>
+            </div>  
+        </div>
+    </div>
+    <br><br><br><br><br><br><br>
+	<section class="aboutus" id="about">
+		<div class="main-title-about">
+	    	<h2>Немного обо мне</h2>
+			<p>Я люблю рассказывать истории через фотографию</p>
+		</div>
 
+        <div class="about_me_container">
+		    <div class="about_desc">
+			    <h3>Привет, я Тамила!</h3>
+						
+			    <p>Я мама девочек двойняшек 3-х лет и сладкого годовалого мальчика. Я творческий человек и мне сложно сидеть долго на одном месте. Обожаю путешествовать, и даже с 3-мя детьми это возможно. Я познаю себя в разных сферах, и мне хочется чтобы вы тоже узнавали себя через фотографию, это очень увлекательно.</p>
+						
+			    <p>Каждый раз я испытываю счастье и волнение перед съемкой. Особенно когда герои снимаются не в первый раз. Волнение, что мне не чем будет уже удивить. Но, каждый раз, герои открываются совершенно по-новому, дарят другие эмоции и впечатления. А, я сохраняю для них большую, новую историю.</p>
+						
+			    <p>Мы так редко замечаем детали в жизни! И я благодарна фотоаппарату, за то, что есть возможность их запечатлеть навсегда. Приглашаю Вас в нашу жизнь.</p>
+						
+                <div class="about-social">
+                    <a href="https://www.facebook.com/profile.php?id=100008461901780"><i class="fa fa-facebook"></i></a>
+                    <a href="https://t.me/tami_kafizova?fbclid=PAAaaNDZHuqYzRaRSGU79IchrqEtLoQ_KiNh3C2im1yb8NL-gLXkN4wlMKIV4."><i class="fa fa-telegram"></i></a>
+                    <a href="https://instagram.com/tami_kafizova?igshid=YmMyMTA2M2Y="><i class="fa fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="polaroid">
+                <a href="#" title="#Мы!">
+                    <img src="./IMG/with_kids_color_open.jpg" alt="" />
+                </a>
+            </div>
+        </div>
 
+	</section>
+    	<!-- Contact us section starts -->
+        <br id="contact"><br><br>
+        <div class="main-title-about">
+            <h2>Контакты</h2>
+            <p>Можете заполнить форму для записи или любых вопросов.</p>
+        </div>
 
+		<form class="contact-form">
+			<input type="text" class="form-control" placeholder="Введите имя" />
+			<input type="tel" class="form-control" placeholder="Введите номер телефона для связи" />
+			<textarea class="form-control" rows="8" placeholder="Для записи, предложений, пожеланий"></textarea>
+			<input type="submit" class="btn-contact" value="Submit" />
+		</form class="contact-form">
+				
+		<div class="contact-info-single">
+			<div class="icon-box"><i class="fa fa-envelope"></i></div>
+			<p>tamika@gmail.com</p>
+		</div>
+						
+		<div class="contact-info-single">
+			<div class="icon-box"><i class="fa fa-phone"></i></div>
+			<p>+998 (90) 000-00-00</p>
+		</div>
+						
+		<div class="contact-info-single">
+			<div class="icon-box"><i class="fa fa-soccer-ball-o"></i></div>
+			<p>www.tamika.me</p>
+		</div>
 
-
+	</section>
+	<!-- Contact us section ends -->
+	
+	<!-- Footer section starts -->
+	<footer>
+		<div class="site-info">
+			<p>Copyright &copy; Untitled. All rights reserved. Design By <a href="vadimkravtsov2012@gmail.com" target="_blank">VADIM KRAVTSOV</a>Special thanks to css-tricks.com</p>
+		</div>
+	</footer>
+	<!-- Footer section ends -->
 </body>

@@ -1,0 +1,219 @@
+* {
+    /* border: 1px solid red; */
+    /* font-family: 'DM Sans', sans-serif; */
+    font-family: 'Tinos', serif;
+    font-size: 16px;
+}
+#presentation {
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+    border: 1px solid red;
+    
+}
+
+#presentation img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: -200px;
+}
+
+.text_block {
+    position: relative;
+    float: left;
+    text-align: center;
+    margin-top: 2%;
+    width: 100%;
+    text-shadow: 3px 3px 3px black, 3px 3px 3px black, 3px 3px 3px black, 3px 3px 3px black;
+}
+
+.text_block h1 {
+	color:#F2F2F2;
+	font-size: 4.750rem;
+	font-weight: 700;
+    /* text-decoration: underline #5196A6; */
+}
+
+.text_block h2 {
+	color: #F2F2F2;
+	font-size: 2.250rem;
+    font-weight: 400;
+    font-style: italic;
+    /* text-decoration: underline #5196A6; */
+}
+
+.header-nav{
+    position: absolute;
+	padding: 0;
+	list-style: none;
+    text-align: center;
+    margin-top: 40%;
+    width: 100%;
+}
+
+.header-nav li{
+	display: inline-block;
+}
+
+.header-nav li a{
+	color: #F2F2F2;
+	font-size: 1.250rem;
+	display: block;
+	padding: 12px 40px;
+	border: 1px solid #fff;
+	border-radius: 6px;
+	margin: 0 8px;
+	transition: all 0.3s;
+    text-shadow: 3px 3px 3px black, 3px 3px 3px black, 3px 3px 3px black, 3px 3px 3px black;
+}
+
+.header-nav li a:hover{
+	background: #5196A6;
+	color: #F2F2F2;
+	border: 1px solid #5196A6;
+    text-shadow: none;
+}
+
+/* About my works */
+
+.main-title-text{
+	text-align: left;
+	margin: 2rem auto;
+    width: 50%;
+    margin-left: 35%;
+}
+
+.main-title h2{
+	color: white;
+	font-size: 2rem;
+    font-weight: 700;
+}
+
+.main-title p{
+	font-size: 1.125rem;
+	color:white;
+}
+
+.main-title-text ul {
+    list-style-type: square;
+    list-style-position: inside;
+}
+.main-title-text li{
+	font-size: 1.750rem;
+	color:white;
+    margin: 5% auto;
+}
+
+#photos {
+    /* place-content: center; */
+    background: #5196A6;
+    padding-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    min-height: 50vh;
+}
+
+/* About me */
+.aboutus{
+	padding: 50px 0;   
+}
+
+.main-title-about {
+	text-align: center;
+    padding-bottom: 100px;
+}
+
+.main-title-about h2{
+	color: #22313f;
+	font-size: 3rem;
+}
+
+.main-title-about p{
+	font-size: 1.25rem;
+	color: #22313f;
+}
+
+.about_me_container {
+    width: 100%;
+    height: 450px;
+    background-color: #f4605c;
+    display: flex;
+    justify-content: space-between;
+}
+
+.polaroid {
+    margin-right: 5%;
+}
+
+.polaroid a {
+    background: #ffffff;
+    display: inline-block;
+    margin: -30px 75px 30px;
+    padding: 15px 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    transition: all .20s linear;
+    z-index: 0;
+    position: relative;
+    font-family: 'Shantell Sans', cursive;
+  }
+  .polaroid a:after {
+    color: #333;
+    font-size: 25px;
+    content: attr(title);
+    position: relative;
+    top: 15px;
+  }
+
+  .polaroid img {
+    display: block;
+    width: 350px;
+  }
+  .polaroid a:hover {
+    transform: scale(1.2);
+    z-index: 10;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+  }
+
+.about_desc {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 2% 2%;
+}
+
+.about_desc h3 {
+	color: white;
+	font-size: 2rem;
+    font-weight: 700;
+} 
+
+.about_desc p {
+	font-size: 1.250rem;
+	color:white;
+}
+
+.about-social a{
+	display: inline-block;
+	width: 42px;
+	height: 42px;
+	background: white;
+	font-size: 40px;
+    color: #f4605c;
+	text-align: center;
+	border-radius: 100%;
+	/* padding-top: 3px; */
+	/* margin: 0 2px; */
+    padding: 3px;
+	transition: all 0.3s;
+}
+
+.about-social a:hover{
+	background: #5196A6;
+}
+
+/* Contacts */
+
