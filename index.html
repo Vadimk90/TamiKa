@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="./index.js"></script>
 </head>
     
 </head>
@@ -19,20 +20,24 @@
 <body>
     <main> 
         <div class="container" id="presentation">
-            <img src="./IMG/front_photo.jpg" alt="photo"> 
-            <div class="text_block">
+            <!-- <img src="./IMG/front_photo.jpg" alt="photo">  -->
+            <div class="text_block_nonmobile">
                 <h1>Привет, меня зовут ТАМИЛА</h1>
                 <h2>Я профессиональный фотограф и мама троих детей :)</h2>
             </div>
+            <div class="text_block_mobile">
+                <h1>Привет, я ТАМИЛА</h1>
+                <!-- <h2>Я мама-фотограф :)</h2> -->
+            </div>
             <ul class="header-nav">
-                <li><a href="#photos">Мои работы</a></li>
+                <li><a href="#works">Мои работы</a></li>
                 <li><a href="#about">Обо мне</a></li>
                 <li><a href="#contact">Контакты</a></li>
             </ul>
         </div>
     </main>
-    <br id="photos"><br><br><br><br><br><br><br>
-    <div class="main-title-about">
+    <br><br><br><br><br><br><br><br>
+    <div class="main-title-about" id="works">
         <h2>МОИ РАБОТЫ</h2>
     </div>
     <div class="container" id="photos">
@@ -45,7 +50,6 @@
         </div>
 
         <div class="main-title">
-
             <div class="main-title-text">
                 <br>
                 <ul>
@@ -68,17 +72,25 @@
         <div class="about_me_container">
 		    <div class="about_desc">
 			    <h3>Привет, я Тамила!</h3>
-						
 			    <p>Я мама девочек двойняшек 3-х лет и сладкого годовалого мальчика. Я творческий человек и мне сложно сидеть долго на одном месте. Обожаю путешествовать, и даже с 3-мя детьми это возможно. Я познаю себя в разных сферах, и мне хочется чтобы вы тоже узнавали себя через фотографию, это очень увлекательно.</p>
-						
-			    <p>Каждый раз я испытываю счастье и волнение перед съемкой. Особенно когда герои снимаются не в первый раз. Волнение, что мне не чем будет уже удивить. Но, каждый раз, герои открываются совершенно по-новому, дарят другие эмоции и впечатления. А, я сохраняю для них большую, новую историю.</p>
-						
-			    <p>Мы так редко замечаем детали в жизни! И я благодарна фотоаппарату, за то, что есть возможность их запечатлеть навсегда. Приглашаю Вас в нашу жизнь.</p>
-						
+			    <p>Каждый раз я испытываю счастье и волнение перед съемкой. Особенно когда герои снимаются не в первый раз. Волнение, что мне не чем будет уже удивить. Но, каждый раз, герои открываются совершенно по-новому, дарят другие эмоции и впечатления. А, я сохраняю для них большую, новую историю.</p>	
+			    <p>И я благодарна фотоаппарату, за то, что есть возможность запечатлеть моменты навсегда. Приглашаю Вас в нашу жизнь.</p>
                 <div class="about-social">
-                    <a href="https://www.facebook.com/profile.php?id=100008461901780"><i class="fa fa-facebook"></i></a>
-                    <a href="https://t.me/tami_kafizova?fbclid=PAAaaNDZHuqYzRaRSGU79IchrqEtLoQ_KiNh3C2im1yb8NL-gLXkN4wlMKIV4."><i class="fa fa-telegram"></i></a>
-                    <a href="https://instagram.com/tami_kafizova?igshid=YmMyMTA2M2Y="><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100008461901780" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a href="https://t.me/tami_kafizova?fbclid=PAAaaNDZHuqYzRaRSGU79IchrqEtLoQ_KiNh3C2im1yb8NL-gLXkN4wlMKIV4." target="_blank"><i class="fa fa-telegram"></i></a>
+                    <a href="https://instagram.com/tami_kafizova?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fa fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="about_desc_mobile">
+			    <h3>Я Тамила!</h3>
+			    <p>Я мама девочек двойняшек и годовалого мальчика.</p>
+			    <p>Через фотографию я сохраняю для вас большую, новую, вашу красивую историю.</p>	
+			    <p>Мы так редко замечаем детали в жизни! И я благодарна фотоаппарату, за то, что есть возможность их запечатлеть навсегда.</p>
+                <p>Приглашаю Вас в нашу жизнь.</p>
+                <div class="about-social">
+                    <a href="https://www.facebook.com/profile.php?id=100008461901780" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a href="https://t.me/tami_kafizova?fbclid=PAAaaNDZHuqYzRaRSGU79IchrqEtLoQ_KiNh3C2im1yb8NL-gLXkN4wlMKIV4." target="_blank"><i class="fa fa-telegram"></i></a>
+                    <a href="https://instagram.com/tami_kafizova?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fa fa-instagram"></i></a>
                 </div>
             </div>
             <div class="polaroid">
@@ -95,14 +107,15 @@
             <h2>Контакты</h2>
             <p>Можете заполнить форму для записи или любых вопросов.</p>
         </div>
-
+	<div class="contact-block">
+		<div></div>
 		<form class="contact-form">
-			<input type="text" class="form-control" placeholder="Введите имя" />
-			<input type="tel" class="form-control" placeholder="Введите номер телефона для связи" />
-			<textarea class="form-control" rows="8" placeholder="Для записи, предложений, пожеланий"></textarea>
-			<input type="submit" class="btn-contact" value="Submit" />
+			<input type="text" class="form-control" placeholder="Введите имя" id="inputName" />
+			<input type="number" class="form-control" placeholder="Введите номер телефона для связи" id="inputNumber" />
+			<textarea class="form-control" rows="5" placeholder="Для записи, предложений, пожеланий" id="inputText"/></textarea>
+			<input type="button" class="btn-contact" value="Отправить" id="button" onclick="Checker()"/>
 		</form class="contact-form">
-				
+		<div class="contact-ikons">	
 		<div class="contact-info-single">
 			<div class="icon-box"><i class="fa fa-envelope"></i></div>
 			<p>tamika@gmail.com</p>
@@ -114,17 +127,19 @@
 		</div>
 						
 		<div class="contact-info-single">
-			<div class="icon-box"><i class="fa fa-soccer-ball-o"></i></div>
+			<div class="icon-box"><i class="fa fa-camera"></i></div>
 			<p>www.tamika.me</p>
 		</div>
-
+		<div></div>
+		</div>	
+	</div>	
 	</section>
 	<!-- Contact us section ends -->
 	
 	<!-- Footer section starts -->
 	<footer>
 		<div class="site-info">
-			<p>Copyright &copy; Untitled. All rights reserved. Design By <a href="vadimkravtsov2012@gmail.com" target="_blank">VADIM KRAVTSOV</a>Special thanks to css-tricks.com</p>
+			<p id="asd">Copyright &copy; Untitled. All rights reserved. Design By <a href="vadimkravtsov2012@gmail.com" target="_blank">VADIM KRAVTSOV. </a>Special thanks to css-tricks.com</p>
 		</div>
 	</footer>
 	<!-- Footer section ends -->

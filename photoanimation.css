@@ -7,7 +7,7 @@
 
 .gallery > img {
   grid-area: 1/1;
-  width: 100%;
+  width: 80%;
   aspect-ratio: 1;
   -o-object-fit: cover;
      object-fit: cover;
